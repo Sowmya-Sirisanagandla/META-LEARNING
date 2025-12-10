@@ -1,0 +1,28 @@
+# Node
+node_modules/
+build/
+dist/
+
+# Environment variables
+.env
+*.env
+
+# Python environments
+MetaFed-Flask/venv/
+MetaFed-Flask/.venv/
+
+# Bytecode and cache
+MetaFed-Flask/__pycache__/
+MetaFed-Flask/*.pyc
+MetaFed-Flask/models/*.pt
+MetaFed-Flask/models/*.pkl
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+venv/
+
